@@ -1,0 +1,302 @@
+html{
+	height: 100%;
+	width: 100%;
+}
+body{
+	margin: 0;
+	font-family: Verdana, Helvetica, sans-serif;
+	height: 100%;
+	width: 100%;
+}
+.bg{
+	z-index: -1; 
+	position: fixed; 
+	top: 0; width: 100%; 
+	height: 100%; 
+	background-image: 
+	linear-gradient(to right bottom, #333333, #606060, #929091, #c7c4c6, #fffbfc); background-size: cover;
+}
+.goTo{
+	width: 18px;
+	height: 18px;
+	margin-left: 5px;
+}
+.page{
+	position: absolute;
+	width: 100%;
+	height: 100%;
+}
+.pokemonHeader{
+	display: block;	
+	margin-left: 0;
+	margin-top: 10px;
+	padding-bottom: 5px;
+	border-bottom: 3px solid #D90017;
+	text-indent: 20px;
+	text-align: left;
+	color: white;
+	letter-spacing: 1px;
+}
+.pokemonContent{
+	display: block;
+	max-width: 95%;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 2%; 
+}
+.pokemonImg{
+	max-width: 40%;
+	max-height: auto;
+	float: left;
+
+}
+.pokemonInfo{
+	display: inline-block;
+	float: left;
+	width: 55%;
+	height: auto;
+	margin-left: 5%;
+	margin-top: 5%;
+	color: white;
+	letter-spacing: 1px;
+}
+.pokemonInfo p{
+	padding: 30px;
+	text-align: center;
+	border: 2px solid black;
+	border-radius: 20px 5px;
+	background-color: #D90017;
+	max-width: 100%;
+	margin-bottom: 50px;
+}
+.infoTable{
+	border: 2px solid black;
+	border-radius: 20px 5px;
+	padding: 20px;
+	background-color: #D90017;
+}
+.infoTable img{
+	margin: 0;
+	width: 40px;
+	height: 40px;
+}
+.infoTable th{
+	color: black;
+	background-color: white;
+	border-radius: 5px;
+	width: 120px;
+	padding: 5px;
+}
+.infoTable td{
+	padding-top: 5px;
+	text-align: center;
+}
+.infoTable label{
+	display: inline-block;
+	border-radius: 8px;
+	width: 90px;
+	margin: 3px; 
+	padding: 3px;
+}
+
+.top ul {
+  list-style-type: none;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+.top li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+.top li:last-child{
+	border: none;
+}
+
+.top li a {
+  display: block;
+  color: white;
+  font-size: 1.2em;
+  text-align: center;
+  letter-spacing: 2px;
+  height: 30px;
+  padding: 15px 36px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+.top li a:hover {
+  background-color: #111;
+}
+
+.active {
+  background-color: #D90017;
+}
+
+
+
+#middle{
+	display: block;
+	border-radius: 20px;
+	background-color: #333;
+	width: 90%;
+	margin: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+	color: white;
+	text-align: center;
+  	letter-spacing: 2px;
+}
+#nameInput{
+	background-image: url(img/search.png); /* Add a search icon to input */
+	background-size: 20px 20px;
+ 	background-position: 10px 12px; /* Position the search icon */
+  	background-repeat: no-repeat; /* Do not repeat the icon image */
+	margin-left: 40px;
+  	width: 15%; /* Full-width */
+  	font-size: 16px; /* Increase font-size */
+  	padding: 12px 20px 12px 40px; /* Add some padding */
+  	border: 2px solid #ddd; /* Add a grey border */
+  	margin-bottom: 12px; /* Add some space below the input */
+}
+#type1, #type2, #generation, #legendary{
+	background-color: #D90017;
+	color: white;
+	font-weight: bold;
+  	font-size: 16px; 
+  	text-transform: uppercase;
+}
+#id{
+	width: 3%;
+}
+#name{
+	width: 17%;
+}
+#bottom table{
+	width: 95%;
+	margin: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	border: 2px solid black;
+	text-align: left;
+}
+#bottom th{
+	background-color: #D90017;
+	color: white;
+}
+#bottom	tr:nth-child(even) {background-color: #f2f2f2}
+
+#quizUser{
+	display: block;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	border-bottom: 2px dashed black;
+
+}
+
+#quizBox{
+	display: block;
+	width: 60%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 50px;
+	text-align: center;
+	border:2px solid black;
+	border-radius: 20px;
+	background-color: white;
+	padding: 30px;
+}
+
+.button{
+	display: block;
+  	font-size: 1.2em;
+	background-color: #BF0014;
+	border: none;
+	border-radius: 10px;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+}
+#quizButton{
+	margin-top: 20px;
+}
+
+#quizQuestion{
+	border-bottom: 1px solid black;
+	padding-bottom: 10px;
+}
+#quizImg{
+	position: fixed;
+	max-width: 30%;
+	bottom: 0;
+	right: 0;
+}
+
+.gridContainer{
+	display: grid;
+	grid-template-columns: auto auto auto auto;
+	justify-content: space-around;
+	align-content: center;
+	padding-top: 10px;
+}
+@media only screen and (max-width: 1140px) {
+	.gridContainer{
+		display: grid;
+		grid-template-columns: auto auto auto;
+		justify-content: space-around;
+	}
+}
+@media only screen and (max-width: 855px) {
+	.gridContainer{
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: space-around;
+	}
+}
+.card{
+	padding: 10px;
+	margin: 10px;
+	border-radius: 10px;
+	box-shadow: 5px 10px 10px #333333;
+	background-color: #F3F680;
+}
+.price{
+	font-weight: bold;
+	margin-left: 15px;
+}
+#buyButton{
+	margin: 10px;
+}
+
+.message{
+	border-top: 2px solid white;
+	border-bottom: 2px solid black;
+	background-color: #C7001D;
+	color: white;
+	text-align: center;
+}
+
+#cardName{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	margin: 5px;
+	padding: 10px;
+	border-radius: 10px;
+	background-color: gold;
+}
+#collectionImg{
+	max-width: 40%;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 10px;
+}
